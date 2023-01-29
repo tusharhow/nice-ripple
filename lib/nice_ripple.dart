@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 ///A Flutter Class For Showing Ripple Effects
 class NiceRipple extends StatefulWidget {
   const NiceRipple({
-    required this.child,
+    this.child,
     Key? key,
     this.rippleColor,
     this.duration,
@@ -70,7 +70,7 @@ class _NiceRippleState extends State<NiceRipple>
                   ? (100 * index) * _controller!.value
                   : (widget.radius! * index) * _controller!.value),
             ),
-            Align(child: widget.child),
+            Align(child: widget.child ?? Container()),
           ],
         );
       },

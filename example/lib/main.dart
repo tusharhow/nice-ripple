@@ -36,10 +36,6 @@ class _NiceRippleExampleState extends State<NiceRippleExample> {
         onTap: () {
           // your code here
         },
-        child: const Text(
-          "Nice Ripple",
-          style: TextStyle(fontSize: 20),
-        ),
       ),
     );
   }
