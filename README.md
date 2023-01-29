@@ -4,7 +4,7 @@
 Bring a touch of elegance to your Flutter app with Nice Ripple. This package allows you to easily add customizable ripple effects to your buttons, containers, and other widgets. It is easy to use and highly customizable, so you can make it look and feel just right for your app.
 
 ---
-![Nice Ripple: A Customizable Ripple Effect Package for Flutter](https://user-images.githubusercontent.com/65107679/215160432-b87cf4ca-0690-436f-becc-a2284bee715b.gif)
+![Nice Ripple: A Customizable Ripple Effect Package for Flutter](https://user-images.githubusercontent.com/65107679/215279784-14595881-1d75-4dde-a5ce-cf7df109bdd2.gif)
 ---
 ## Using Nice Ripple
 
@@ -14,13 +14,10 @@ Bring a touch of elegance to your Flutter app with Nice Ripple. This package all
         radius: 100,
         rippleShape: BoxShape.circle,
         duration: const Duration(seconds: 3),
+        curve: Curves.easeInOut,
         onTap: () {
           // your code here
         },
-        child: const Text(
-          "Nice Ripple",
-          style: TextStyle(fontSize: 20),
-        ),
       ),
 ```
 

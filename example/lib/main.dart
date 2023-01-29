@@ -33,6 +33,7 @@ class _NiceRippleExampleState extends State<NiceRippleExample> {
         radius: 100,
         rippleShape: BoxShape.circle,
         duration: const Duration(seconds: 3),
+        curve: Curves.easeInOut,
         onTap: () {
           // your code here
         },
