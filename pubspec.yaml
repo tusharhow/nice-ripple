@@ -1,6 +1,6 @@
 name: nice_ripple
 description: "Nice Ripple: A Customizable Ripple Effect Package for Flutter"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/tusharhow/nice-ripple
 
 environment:
